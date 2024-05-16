@@ -172,6 +172,8 @@
         var audio = document.getElementById('myAudio');
         audio.play();
         startTextAnimation(); // Memulai animasi teks bersamaan dengan pemutaran audio
+        // Sembunyikan tombol setelah diklik
+        document.getElementById('startButton').style.display = 'none';
     });
 
     // Fungsi untuk memulai animasi teks
